@@ -1,0 +1,22 @@
+body{
+    background-image: url(Images/Dog1-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+.navigation ul{
+    display: inline;
+    list-style-type: none;
+}
+.navigation ul  li{
+    padding-top: -50px;
+    float: right;
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+header p{
+    font-size: 30px;
+}

@@ -1,0 +1,47 @@
+/* .two{
+   width: 400px;
+   height: 400px;
+}
+.three{
+    width: 400px;
+   height: 400px;
+}
+.four[
+ */
+ .footer{
+     display: flex;
+     flex-direction: column;
+     background: #292827;
+     color: white;
+     height: 600px;
+     text-align: center;
+ }
+#image1{
+    width: 200px;
+    height: 200px;
+    background-image: url("Images/cat1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image2{
+    width: 200px;
+    height: 200px;
+    background-image: url("Images/Heart1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#image3{
+    width: 200px;
+    height: 200px;
+    background-image: url("Images/Cat2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pat{
+    float: left;
+    width: 32%;
+}
+.fom{
+    display: table;
+    clear: both;
+}
