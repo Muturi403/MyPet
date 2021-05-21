@@ -1,9 +1,0 @@
-/* .point{
-    background-color: #292827;
-    justify-content: center;
-    color: whitesmoke;
-} */
-.container{
-    display: flex;
-    justify-content: center;
-}

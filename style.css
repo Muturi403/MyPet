@@ -1,22 +1,78 @@
-body{
-    background-image: url(Images/Dog1-removebg-preview.png);
+
+.header{
+ background-image: url(Images/Dog1-removebg-preview.png);
     background-repeat: no-repeat;
     background-position: cover;
     background-size: cover;
+    height: 700px;
+    width: 100%;
+   
 }
-.navigation ul{
+ul{
+    margin-top: 100px;
+}
+
+.navigation ul {
     display: inline;
     list-style-type: none;
 }
-.navigation ul  li{
+.navigation ul  li {
     padding-top: -50px;
     float: right;
 }
-.navigation ul li a{
+.navigation ul li a {
     text-decoration: none;
     padding: 10px;
     color: black;
 }
 header p{
     font-size: 30px;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background: #292827;
+    color: whitesmoke;
+    height: 600px;
+    text-align: center;
+}
+#image1{
+   width: 200px;
+   height: 200px;
+   background-image: url("Images/love.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#image2{
+   width: 200px;
+   height: 200px;
+   /* background-image: url("Images/users.png"); */
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#image3{
+   width: 200px;
+   height: 200px;
+   background-image: url("Images/pigBank.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.pat{
+   float: left;
+   width: 32%;
+   display: flex;
+   justify-content: center;
+}
+.fom{
+   display: flex;
+   clear: both;
+    justify-content: center;
+}
+.form span p{
+    margin-top: 2px;
 }
